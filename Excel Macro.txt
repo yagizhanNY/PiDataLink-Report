@@ -1,0 +1,26 @@
+Module1
+
+Sub ZamanSay()
+Application.OnTime Now + TimeSerial(0, 0, 5), "test"
+End Sub
+
+Sub test()
+'MsgBox ("Calisti")
+Application.CalculateFullRebuild
+'Application.DisplayAlerts = False
+ThisWorkbook.Saved = True
+'ThisWorkbook.Close True
+Application.Quit
+
+
+End Sub
+
+***********************************************************
+
+Module2
+
+Sub Basla()
+
+ZamanSay
+
+End Sub
