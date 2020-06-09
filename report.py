@@ -28,7 +28,7 @@ while(True):
 
         if(isActive[0] == "evet"):
             #print("aktif")
-            send_from = "pisystem@oyakcimento.com.tr"
+            send_from = "xxx@xxx.com.tr"
             #text = "Gün sonu raporu ektedir.\n\nBilginize,\n\n"
             server = smtpServer[0]
             port = smtpPort[0]
